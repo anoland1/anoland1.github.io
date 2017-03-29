@@ -1,8 +1,8 @@
-var currentTab = 0;
+//var currentTab = 0;
 //var purchaseString = $(".itemselected .orderbutton").text();
 //var purchasePrice = parseFloat(purchaseString);
-var purchaseString, purchasePrice;
-var test = currentTab.valu
+//var purchaseString, purchasePrice;
+//var test = currentTab.valu
 
 
 /*function getPrice() {

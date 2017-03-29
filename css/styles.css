@@ -43,7 +43,7 @@ body {
 .name {
 	font-size: 2.5em;
 	position: absolute;
-	top: 5px;
+	top: 0px;
 	font-family: "League Script", cursive;
 	font-weight: bolder;
 	color: #000;
@@ -87,14 +87,35 @@ body {
 		margin: 20px  0 0 2%;
 	}
 
+	/* Attribute Selectors ------------- */
+
+	#container  {
+	  max-width: 500px;
+	  margin: auto;
+	}
+
+
+	.avatar {
+	  display: block;
+	  margin: 0 auto 1em;
+	  width:220px;
+	  height:220px;
+	  object-fit: cover;
+	}
+
+	.rounded {
+	  border-radius: 50%;
+	}
+
 
 /* ---- Layout Containers ---- */
 
 .main-header {
 	padding-top: 22px;
-	padding-bottom: 17px;
+	padding-bottom: 22px;
   box-shadow: 0 2px 1px rgba(0,0,0,.7);
-	background: #deb887;
+	background: lightgrey;
+	/*#deb887;*/
 }
 
 .main-footer {
@@ -104,16 +125,17 @@ body {
 .col {
 	padding-right: 1em;
 	padding-left: 1em;
+	margin-top: 40px;
 }
 
 .main-footer {
-	background: #deb887;
+	background: lightgrey;
 	padding: 2em 0;
 	margin-top: 30px;
 	font-size: .8em;
 	border-top: 2px outset #000;
 	height: 100%;
-	box-shadow: 0px 500px 0px 500px #deb887;
+	box-shadow: 0px 500px 0px 500px lightgrey;
 }
 
 /* =================================
